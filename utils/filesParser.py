@@ -16,4 +16,4 @@ def commaParser(fileArgument):
         if path.exists(fileArgument): return fileArgument
         else:
             showError(exceptionRule="Options Error" , Message=f"{fileArgument} Doesn't exists.")
-            return fileArgument
+            return False
